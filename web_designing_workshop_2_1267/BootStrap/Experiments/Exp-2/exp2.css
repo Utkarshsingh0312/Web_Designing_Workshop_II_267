@@ -1,0 +1,119 @@
+body{
+background:linear-gradient(120deg,#eef2ff,#fef9f4);
+font-family: Arial;
+color:#1f2937;
+}
+
+
+.navbar{
+background:#ffffff;
+border-bottom:1px solid #e5e7eb;
+}
+
+.navbar-brand{
+color:#4f46e5 !important;
+font-weight:bold;
+}
+
+.nav-link{
+color:#374151 !important;
+}
+
+.nav-link:hover{
+color:#4f46e5 !important;
+}
+
+
+.hero{
+background:linear-gradient(120deg,#6366f1,#8b5cf6);
+color:white;
+}
+
+
+.product-card{
+background:#ffffff;
+border-radius:14px;
+overflow:hidden;
+position:relative;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.product-card:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.img-box{
+height:200px;
+background:#f1f5f9;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.img-box img{
+max-height:100%;
+max-width:100%;
+object-fit:contain;
+}
+
+
+.product-card .badge{
+position:absolute;
+top:12px;
+right:12px;
+padding:6px 12px;
+font-size:12px;
+border-radius:20px;
+}
+
+.card-title{
+color:#111827;
+font-weight:600;
+}
+
+.card-text{
+color:#6b7280;
+}
+
+.price{
+color:#4f46e5;
+font-weight:bold;
+font-size:18px;
+}
+
+.btn-primary{
+background:#4f46e5;
+border:none;
+}
+
+.btn-primary:hover{
+background:#4338ca;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+
+footer a{
+color:#d1d5db;
+text-decoration:none;
+}
+
+footer a:hover{
+color:white;
+}
+
+
+.modal-content{
+border-radius:12px;
+}
+
+.modal-header{
+background:#f3f4f6;
+}

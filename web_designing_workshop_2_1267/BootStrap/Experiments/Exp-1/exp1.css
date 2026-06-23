@@ -1,0 +1,61 @@
+body{
+background:#0b1a2b;
+font-family: Arial;
+color:#e6edf3;
+}
+
+header{
+background:#1f3a5f;
+color:#ffffff;
+padding:35px;
+text-align:center;
+}
+
+nav{
+background:#091221;
+}
+
+nav a{
+color:#e6edf3 !important;
+}
+nav a:hover{
+color:#0dcaf0 !important;
+}
+
+section{
+padding:40px;
+}
+
+.card-box{
+background:#1b2a41;
+padding:25px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.card-box h3{
+color:#0dcaf0;
+}
+
+.list-group-item{
+background:transparent;
+color:#e6edf3;
+border-color:#2f3e55;
+}
+
+.btn-custom{
+background:#0dcaf0;
+color:#000;
+border:none;
+}
+
+.btn-custom:hover{
+background:#0bb5d4;
+}
+
+footer{
+background:#091221;
+color:#cbd5e1;
+text-align:center;
+padding:20px;
+}
